@@ -55,10 +55,12 @@ body {
   /* general styling */
   
   .container {
-    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    /*width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    clear: both;
+    clear: both;*/
   }
   
   h1,
@@ -237,4 +239,6 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  
   
